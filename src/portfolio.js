@@ -131,18 +131,18 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Science",
       duration: "September 2017 - April 2019",
       desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "SMIT",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      subHeader: "Front-end development",
+      duration: "September 2023 - March 2024",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -158,11 +158,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -171,7 +171,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -239,7 +239,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +300,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -312,19 +312,19 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "https://medium.com//why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -339,11 +339,11 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      slides_url: "https://bit.ly/",
+      event_url: "https://www.facebook.com/events"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -354,9 +354,9 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/codevcast/embed/episodes/"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
