@@ -179,34 +179,65 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME STARTUPS AND PROJECTS THAT I HELPED TO CREATE WITH TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/connectFissionLogo.png"), // Replace with actual image path
+      projectName: "ConnectFission - Social Blogging Site",
+      projectDesc:
+        "A modern social media platform built using React.js and Firebase. Users can create/edit posts, real-time updates, with responsive UI and user profiles.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Live Website",
+          url: "https://connectfission.web.app/"
+        },
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/Hasanhayat/connect-fission-social-app-firebase"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/msgnestLogo.png"), // Replace with actual image path
+      projectName: "MsgNest - Real-time Chat App",
+      projectDesc:
+        "A sleek chat application with real-time messaging, user authentication, and responsive UI using React.js and Firebase.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Live ChatApp",
+          url: "https://msgnest.web.app/"
+        },
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/Hasanhayat/MsgNest-chat-app"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ecomStoreLogo.png"), // Replace with actual image path
+      projectName: "Khattak Store - E-Commerce with Admin Panel",
+      projectDesc:
+        "A full-featured e-commerce store with a secure and functional admin panel. Built using React.js, Tailwind CSS, and Firebase.",
+      footerLink: [
+        {
+          name: "Live Store",
+          url: "https://khattak-store.web.app/"
+        },
+        {
+          name: "Admin Panel Access",
+          url: "https://khattak-store.web.app/",
+          note: "Login as admin: hassan@hayat.com / Password: hassanhayat"
+        },
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/Hasanhayat/E-com-with-Tailwind"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
