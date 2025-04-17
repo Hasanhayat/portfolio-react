@@ -23,10 +23,10 @@ const greeting = {
   username: "Hassan Hayat",
   title: "Hi all, I'm Hassan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Motivated frontend and JavaScript developer with expertise in building interactive and responsive web interfaces. Skilled in HTML5, CSS3, Bootstrap 5, JavaScript (ES6), React.js, and Git workflows."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1iH-smiOulspcXJ7MfFFcdnBBOnTqmg5n/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,7 +37,8 @@ const socialMediaLinks = {
   // linkedin: "https://www.linkedin.com/in/hasanhayat/",
   gmail: "hassanhayat0012@gmail.com",
   // gitlab: "https://gitlab.com/",
-  facebook: "https://www.facebook.com/hassanhayat",
+  facebook: "https://www.facebook.com/100072923311863",
+  instagram: "https://www.instagram.com/h_hassan.hayat/",
   // medium: "https://medium.com/@",
   stackoverflow: "https://stackoverflow.com/users/29532743/hassan-hayat",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -63,60 +64,21 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+softwareSkills: [
+  { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
+  { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
+  { skillName: "Tailwind", fontAwesomeClassname: "fas fa-wind" },
+  { skillName: "Bootstrap 5", fontAwesomeClassname: "fab fa-bootstrap" },
+  { skillName: "JavaScript (ES6)", fontAwesomeClassname: "fab fa-js" },
+  { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
+  { skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js" },
+  { skillName: "npm", fontAwesomeClassname: "fab fa-npm" },
+  { skillName: "Git & GitHub", fontAwesomeClassname: "fab fa-github" },
+  { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
+  { skillName: "Material-UI (MUI)", fontAwesomeClassname: "fas fa-palette" },
+  { skillName: "Responsive Design", fontAwesomeClassname: "fas fa-mobile-alt" },
+  { skillName: "TanStack Query", fontAwesomeClassname: "fas fa-database" }
+],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -126,25 +88,29 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Ghazali Model school",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
-    },
-    {
-      schoolName: "SMIT",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Front-end development",
+      schoolName: "SMIT (Saylani Mass IT Training)",
+      logo: require("./assets/images/smitLogo.png"), // Replace with SMIT logo if available
+      subHeader: "Frontend Development Certification",
       duration: "September 2023 - March 2024",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+      desc: "Successfully completed intensive training in modern frontend technologies including HTML, CSS, JavaScript, React.js, Firebase, and UI frameworks like MUI, Chakra UI, and Ant Design.",
+      descBullets: [
+          "Ranked among top performers",
+          "Built multiple real-world responsive web applications"
+        ]
+      },
+      {
+        schoolName: "Ghazali Model School",
+        logo: require("./assets/images/ghazaliLogo.png"), // Replace this with your actual school logo if available
+        subHeader: "Matriculation - Science Group",
+        duration: "April 2021 - April 2023",
+        desc: "Completed matriculation with a strong foundation in science and mathematics. Achieved 76% marks and developed an early interest in computer science and technology.",
+        descBullets: [
+          "Focused on Physics, Chemistry and Computer",
+          "Participated in school tech fairs and science exhibitions"
+        ]
+      },
   ]
+  
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -171,34 +137,34 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Frontend Developer (Project-based Learning)",
+      company: "SMIT (Saylani Mass IT Training)",
+      companylogo: require("./assets/images/smitLogo.png"), // Replace with actual logo if available
+      date: "September 2023 – March 2025",
+      desc: "Completed intensive project-based training in modern frontend development. Built real-world responsive web applications using React.js, Firebase, and various UI libraries.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed single-page applications using React.js and Firebase",
+        "Worked on authentication, real-time data handling, and responsive UI with Tailwind CSS and MUI",
+        "Followed modern development workflows with Git & GitHub"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Freelance Frontend Developer",
+      company: "Self-employed",
+      companylogo: require("./assets/images/freelancerLogo.png"), // Replace with relevant image
+      date: "April 2024 – Present",
+      desc: "Provided frontend development services to international clients. Built clean, responsive user interfaces and optimized performance for cross-browser compatibility.",
+      descBullets: [
+        "Designed and developed modern UIs using HTML5, CSS3, Bootstrap, and Tailwind",
+        "Integrated Firebase authentication and database in client projects",
+        "Communicated effectively with clients to gather requirements and deliver quality work"
+      ]
     }
   ]
+  
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
