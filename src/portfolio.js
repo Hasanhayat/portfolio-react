@@ -26,7 +26,7 @@ const greeting = {
     "Motivated frontend and JavaScript developer with expertise in building interactive and responsive web interfaces. Skilled in HTML5, CSS3, Bootstrap 5, JavaScript (ES6), React.js, and Git workflows."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1iH-smiOulspcXJ7MfFFcdnBBOnTqmg5n/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1UOrbOqqFSr6nAZQm2tUlllLm2fuQ9rUk/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -64,21 +64,24 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-softwareSkills: [
-  { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
-  { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
-  { skillName: "Tailwind", fontAwesomeClassname: "fas fa-wind" },
-  { skillName: "Bootstrap 5", fontAwesomeClassname: "fab fa-bootstrap" },
-  { skillName: "JavaScript (ES6)", fontAwesomeClassname: "fab fa-js" },
-  { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
-  { skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js" },
-  { skillName: "npm", fontAwesomeClassname: "fab fa-npm" },
-  { skillName: "Git & GitHub", fontAwesomeClassname: "fab fa-github" },
-  { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
-  { skillName: "Material-UI (MUI)", fontAwesomeClassname: "fas fa-palette" },
-  { skillName: "Responsive Design", fontAwesomeClassname: "fas fa-mobile-alt" },
-  { skillName: "TanStack Query", fontAwesomeClassname: "fas fa-database" }
-],
+  softwareSkills: [
+    {skillName: "HTML5", fontAwesomeClassname: "fab fa-html5"},
+    {skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt"},
+    {skillName: "Tailwind", fontAwesomeClassname: "fas fa-wind"},
+    {skillName: "Bootstrap 5", fontAwesomeClassname: "fab fa-bootstrap"},
+    {skillName: "JavaScript (ES6)", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "TypeScript", fontAwesomeClassname: "fas fa-code"}, 
+    {skillName: "React.js", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "Next.js", fontAwesomeClassname: "fas fa-forward"},
+    {skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js"},
+    {skillName: "npm", fontAwesomeClassname: "fab fa-npm"},
+    {skillName: "Git & GitHub", fontAwesomeClassname: "fab fa-github"},
+    {skillName: "Firebase", fontAwesomeClassname: "fas fa-fire"},
+    {skillName: "Material-UI (MUI)", fontAwesomeClassname: "fas fa-palette"},
+    {skillName: "Responsive Design", fontAwesomeClassname: "fas fa-mobile-alt"},
+    {skillName: "TanStack Query", fontAwesomeClassname: "fas fa-database"}
+  ],
+
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -94,23 +97,22 @@ const educationInfo = {
       duration: "September 2023 - March 2024",
       desc: "Successfully completed intensive training in modern frontend technologies including HTML, CSS, JavaScript, React.js, Firebase, and UI frameworks like MUI, Chakra UI, and Ant Design.",
       descBullets: [
-          "Ranked among top performers",
-          "Built multiple real-world responsive web applications"
-        ]
-      },
-      {
-        schoolName: "Ghazali Model School",
-        logo: require("./assets/images/ghazaliLogo.png"), // Replace this with your actual school logo if available
-        subHeader: "Matriculation - Science Group",
-        duration: "April 2021 - April 2023",
-        desc: "Completed matriculation with a strong foundation in science and mathematics. Achieved 76% marks and developed an early interest in computer science and technology.",
-        descBullets: [
-          "Focused on Physics, Chemistry and Computer",
-          "Participated in school tech fairs and science exhibitions"
-        ]
-      },
+        "Ranked among top performers",
+        "Built multiple real-world responsive web applications"
+      ]
+    },
+    {
+      schoolName: "Ghazali Model School",
+      logo: require("./assets/images/ghazaliLogo.png"), // Replace this with your actual school logo if available
+      subHeader: "Matriculation - Science Group",
+      duration: "April 2021 - April 2023",
+      desc: "Completed matriculation with a strong foundation in science and mathematics. Achieved 76% marks and developed an early interest in computer science and technology.",
+      descBullets: [
+        "Focused on Physics, Chemistry and Computer",
+        "Participated in school tech fairs and science exhibitions"
+      ]
+    }
   ]
-  
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -164,7 +166,6 @@ const workExperiences = {
       ]
     }
   ]
-  
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -238,7 +239,6 @@ const bigProjects = {
   display: true
 };
 
-
 // Achievement Section
 // Include certificates, talks etc
 
@@ -306,7 +306,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-",
@@ -315,7 +315,7 @@ const blogSection = {
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com//why-react-is-the-best-5a97563f423e",
+      url: "https://medium.com//why-react-is-the-best-",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
@@ -350,9 +350,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/"
-  ],
+  podcast: ["https://anchor.fm/codevcast/embed/episodes/"],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -377,7 +375,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
