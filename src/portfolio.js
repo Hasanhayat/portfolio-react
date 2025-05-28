@@ -23,7 +23,7 @@ const greeting = {
   username: "Hassan Hayat",
   title: "Hi all, I'm Hassan",
   subTitle: emoji(
-    "Motivated frontend and JavaScript developer with expertise in building interactive and responsive web interfaces. Skilled in HTML5, CSS3, Bootstrap 5, JavaScript (ES6), React.js, and Git workflows."
+    "Motivated Frontend & Full-Stack MERN Developer with a strong command of JavaScript and modern web technologies. Experienced in building interactive, responsive interfaces and scalable web applications using HTML5, CSS3, Bootstrap 5, ES6, React.js, Node.js, MongoDB, and Git workflows."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1UOrbOqqFSr6nAZQm2tUlllLm2fuQ9rUk/view?usp=sharing", // Set to empty to hide the button
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/hasanhayat",
-  // linkedin: "https://www.linkedin.com/in/hasanhayat/",
+  linkedin: "https://www.linkedin.com/in/hasanhayat",
   gmail: "hassanhayat0012@gmail.com",
   // gitlab: "https://gitlab.com/",
   facebook: "https://www.facebook.com/100072923311863",
@@ -70,10 +70,12 @@ https://fontawesome.com/icons?d=gallery */
     {skillName: "Tailwind", fontAwesomeClassname: "fas fa-wind"},
     {skillName: "Bootstrap 5", fontAwesomeClassname: "fab fa-bootstrap"},
     {skillName: "JavaScript (ES6)", fontAwesomeClassname: "fab fa-js"},
-    {skillName: "TypeScript", fontAwesomeClassname: "fas fa-code"}, 
+    {skillName: "TypeScript", fontAwesomeClassname: "fas fa-code"},
     {skillName: "React.js", fontAwesomeClassname: "fab fa-react"},
     {skillName: "Next.js", fontAwesomeClassname: "fas fa-forward"},
     {skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js"},
+    {skillName: "Express.js", fontAwesomeClassname: "fas fa-server"}, // added
+    {skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf"}, // added
     {skillName: "npm", fontAwesomeClassname: "fab fa-npm"},
     {skillName: "Git & GitHub", fontAwesomeClassname: "fab fa-github"},
     {skillName: "Firebase", fontAwesomeClassname: "fas fa-fire"},
