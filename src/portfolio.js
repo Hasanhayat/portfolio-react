@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/hasanhayat",
-  linkedin: "https://www.linkedin.com/in/hasanhayat",
+  linkedin: "https://www.linkedin.com/in/hassan-hayat-4a4619398",
   gmail: "hassanhayat0012@gmail.com",
   // gitlab: "https://gitlab.com/",
   facebook: "https://www.facebook.com/100072923311863",
@@ -95,7 +95,7 @@ const educationInfo = {
     {
       schoolName: "SMIT (Saylani Mass IT Training)",
       logo: require("./assets/images/smitLogo.png"), // Replace with SMIT logo if available
-      subHeader: "Frontend Development Certification",
+      subHeader: "Full-Stack Development Certification",
       duration: "September 2023 - March 2024",
       desc: "Successfully completed intensive training in modern frontend technologies including HTML, CSS, JavaScript, React.js, Firebase, and UI frameworks like MUI, Chakra UI, and Ant Design.",
       descBullets: [
