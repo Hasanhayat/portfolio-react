@@ -26,7 +26,7 @@ const greeting = {
     "Motivated Frontend & Full-Stack MERN Developer with a strong command of JavaScript and modern web technologies. Experienced in building interactive, responsive interfaces and scalable web applications using HTML5, CSS3, Bootstrap 5, ES6, React.js, Node.js, MongoDB, and Git workflows."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1UOrbOqqFSr6nAZQm2tUlllLm2fuQ9rUk/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1VTCxOe5qRyXkFTdYcA2ssFDvwudvpLVY/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -144,10 +144,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Frontend Developer (Project-based Learning)",
-      company: "SMIT (Saylani Mass IT Training)",
-      companylogo: require("./assets/images/smitLogo.png"), // Replace with actual logo if available
-      date: "September 2023 – March 2025",
+      role: "Freelance Frontend Developer",
+      company: "Self-Employed",
+      companylogo: require("./assets/images/freelancerLogo.png"), // Replace with actual logo if available
+      date: "December 2023 – July 2025",
       desc: "Completed intensive project-based training in modern frontend development. Built real-world responsive web applications using React.js, Firebase, and various UI libraries.",
       descBullets: [
         "Developed single-page applications using React.js and Firebase",
@@ -156,15 +156,15 @@ const workExperiences = {
       ]
     },
     {
-      role: "Freelance Frontend Developer",
-      company: "Self-employed",
-      companylogo: require("./assets/images/freelancerLogo.png"), // Replace with relevant image
-      date: "April 2024 – Present",
-      desc: "Provided frontend development services to international clients. Built clean, responsive user interfaces and optimized performance for cross-browser compatibility.",
+      role: "Full Stack Developer",
+      company: "3PL Dynaimcs",
+      companylogo: require("./assets/images/3pl.png"), // Replace with relevant image
+      date: "August 2025 – Present",
+      desc: "Working as a Full Stack Developer at 3PL Dynamics, contributing to the development and maintenance of web applications that streamline logistics and supply chain operations. Collaborating with cross-functional teams to deliver high-quality software solutions.",
       descBullets: [
-        "Designed and developed modern UIs using HTML5, CSS3, Bootstrap, and Tailwind",
-        "Integrated Firebase authentication and database in client projects",
-        "Communicated effectively with clients to gather requirements and deliver quality work"
+        "Developed and maintained web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js)",
+        "Integrated third-party services and APIs to enhance application functionality",
+        "Collaborated with team members using Git workflows for version control"
       ]
     }
   ]
@@ -251,55 +251,59 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "10Pearls Advanced OOP Certification",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed advanced OOP analysis certification from 10Pearls, demonstrating proficiency in object-oriented programming concepts and design patterns.",
+      image: require("./assets/images/10pearls.png"),
+      imageAlt: "10Pearls Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1WllnHLnhum3Sa7cqtNckezpqAMmCWchm/view?usp=sharing"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "IBM Frontend Developer Certificate",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Completed IBM Frontend Developer Certificate, demonstrating proficiency in frontend development technologies.",
+      image: require("./assets/images/ibm.jpg"),
+      imageAlt: "IBM Logo",
       footerLink: [
+        // {
+        //   name: "View Google Assistant Action",
+        //   url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        // }
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1AM0V6F2l4QSWNd_sA1vs43WJqEctzZkh/view?usp=sharing"
+        },
       ]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   imageAlt: "PWA Logo",
+    //   footerLink: [
+    //     {name: "Certification", url: ""},
+    //     {
+    //       name: "Final Project",
+    //       url: "https://pakistan-olx-1.firebaseapp.com/"
+    //     }
+    //   ]
+    // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
